@@ -83,3 +83,12 @@
 
 </body>
 </html>
+<?php
+if (file_exists("autos.json")) {
+    $archivo = json_decode(file_get_contents("autos.json"));
+    if (!$archivo ) {
+        echo "Problemas al encontrar auto";
+    }
+
+}
+?>
