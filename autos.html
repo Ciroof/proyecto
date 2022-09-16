@@ -3,14 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>
-		
-	</title>
+	<script src="autos.js" ></script>
+	<title></title>
 </head>
 <body>
-<script src="autos.js">
-
-</script>
+<head>
+	<nav>
+		<center>
+			<h1>Autos...</h1>
+		</center>
+	</nav>
+</head>
+<div>
+	<label>Patente que desea buscar</label>
+	<input type="text" id="matriculas">
+	<button onclick ="botonPatente()">Buscar</button>
+</div><br>
+<div>
+	<label>Disponibilidad de los vehiculos</label>
+	<input type="text" id="estados">
+	<button onclick ="botonEstado()">Buscar</button>
+</div><br>
+<div>
+	<label> Marca de vehiculos que se desea buscar </label>
+	<input type="text" id="marcas">
+	<button onclick ="botonMarca()">Buscar</button>
+</div><br>
+<div>
+	<label> Marca </label>
+	<input type="text" id="marca"><br>
+	<label> Modelo </label>
+	<input type="text" id="modelo"><br>
+	<label> Color </label>
+	<input type="text" id="color"><br>
+	<label> Año </label>
+	<input type="text" id="anio"><br>
+	<label> Kilometros </label>
+	<input type="text" id="kilo"><br>
+	<label> Precio </label>
+	<input type="text" id="precio"><br>
+	<label> Cuotas </label>
+	<input type="text" id="cuota"><br>
+	<label> Patente </label>
+	<input type="text" id="patente"><br>
+	<label> Estado </label>
+	<input type="text" id="estado"><br>
+	<button onclick ="cargarAutos()">Guardar Datos</button>
+	<button onclick ="modAutos()">Modificar Datos</button>
+	<button onclick ="vaciarInputs()">Vaciar Datos</button>
+</div>
 </body>
 </html>
