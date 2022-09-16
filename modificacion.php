@@ -10,8 +10,8 @@
         <form>
             <label>Colocar Patente del vehiculo a modificar</label><br>
             <input type="text" name="matriculas" placeholder="Ej:  HHY 584" id="matriculas"><br><br>
-            <button>Cargar Datos</button><br><br>
-            <label> Marca </label><br>
+            <input type="submit" value="Buscar Auto"><br><br>
+            <label>Marca</label><br>
             <input type="text" name="marca" placeholder="Ej:  Fiat" id="marca"><br>
             <label> Modelo </label><br>
             <input type="text" name="modelo" placeholder="Ej:  Camaro" id="modelo"><br>
@@ -29,7 +29,7 @@
             <input type="text" name="patente" placeholder="Ej:  HHY 584" id="patente"><br>
             <label> Estado </label><br>
             <input type="text" name="estado" placeholder="Ej:  Disponible" id="estado"><br><br>
-            <button>Guardar Modificacion</button>
+            <input type="submit" value="Guardar Modificacion"> 
         </form>
     </center>
 </body>
